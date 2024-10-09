@@ -1,5 +1,7 @@
 # Harmodulum
 
+<img src="harmodulum_screenshot.png" alt="Harmodulum Screenshot" width="500"/>
+
 Harmodulum is an interactive harmonic pendulum simulation project implemented in JavaScript for Max/MSP and Ableton Live. It provides a visual and potentially auditory experience of pendulum motion with adjustable physics parameters.
 
 ## Features
