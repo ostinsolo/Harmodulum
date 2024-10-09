@@ -41,6 +41,7 @@ Harmodulum is an interactive harmonic pendulum simulation project implemented in
 1. In Ableton Live, load the Harmodulum device onto a MIDI track.
 2. Alternatively, open the device in Max/MSP.
 3. Click and drag the pendulums to interact with them.
+4. Shift-click to select the pendulum and drag to change tone's "ct" (pitch-bend)
 4. Adjust parameters as needed using the device controls.
 
 For detailed information on available functions and parameters, refer to the `harmo_pendulum.js` file.
