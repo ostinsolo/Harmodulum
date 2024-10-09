@@ -45,6 +45,24 @@ Harmodulum is an interactive harmonic pendulum simulation project implemented in
 
 For detailed information on available functions and parameters, refer to the `harmo_pendulum.js` file.
 
+## Known Issues
+
+Currently, there is one main bug that affects the device's functionality:
+
+When switching views away from the track where the device is placed, the jsui stops rendering. This causes the pendulum to stop sending MIDI and get stuck in place.
+
+To replicate this issue:
+1. Start the oscillation
+2. Switch to another track
+3. Observe that the pendulum stops moving and MIDI output ceases
+
+We are actively investigating this issue. Potential solutions being explored include:
+- Moving the entire physics logic into a js object that communicates back and forth with the UI
+- Exploring alternative rendering methods, as jsui examples from Max's help section do not exhibit this issue
+- Attempting to place the task rendering outside the jsui with a metro (which did not resolve the issue)
+
+If you have any insights or suggestions regarding this bug, please feel free to contribute or reach out.
+
 ## Contributing
 
 Contributions to Harmodulum are welcome. Please feel free to submit a Pull Request.
