@@ -28,7 +28,7 @@ Harmodulum is an interactive harmonic pendulum simulation project implemented in
 
 1. Clone the repository:
    ```
-   git clone https://github.com/ostinsolo/Harmodulum.git
+   git clone git@github.com:ostinsolo/Harmodulum.git
    ```
 2. Place the entire Harmodulum folder in your Max for Live devices folder:
    ```
